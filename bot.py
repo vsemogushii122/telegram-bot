@@ -108,8 +108,8 @@ async def premium(callback: CallbackQuery):
     else:
         text = (
             "⭐ Premium\n\n"
-            "Здесь будут доступны дополнительные "
-            "материалы проекта."
+            "Здесь будут доступны письки максима "
+            "."
         )
 
     await callback.message.edit_text(text, reply_markup=menu())
